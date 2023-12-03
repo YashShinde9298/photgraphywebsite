@@ -1,0 +1,327 @@
+body {
+    font-family: 'Gabarito', sans-serif;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: black
+}
+
+.container1 {
+    height: 720px;
+    background-image: url('./img/image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgba(169, 168, 168, 0.527);
+    height: 60px;
+    align-items: center;
+}
+
+.logo {
+    width: 30%;
+    padding-left: 60px;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.links {
+    flex: 20%;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 440px;
+    font-size: 15px;
+}
+
+
+
+.content {
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: 250px;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+
+.title {
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 0px;
+    letter-spacing: 5px;
+}
+
+.about {
+    padding: 90px;
+}
+
+.about-title {
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.about-txt {
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 1.4;
+}
+
+.about-btn {
+    height: 45px;
+    width: 150px;
+    font-size: 13px;
+    border: 2px solid black;
+    background-color: transparent;
+}
+
+.about-btn:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.team {
+    margin: 0px 90px;
+}
+
+.team-title {
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.team-card {
+    height: 300px;
+    width: 280px;
+    background-image: url('./img/image2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: transparent;
+}
+
+.team-card:hover {
+    border-image: fill 0 linear-gradient(rgba(48, 48, 48, 0.2), #202020);
+    cursor: pointer;
+    color: white;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-top: 200px;
+}
+
+
+
+.job {
+    letter-spacing: 2px;
+}
+
+.projects {
+    margin: 90px 90px;
+}
+
+.projects-title {
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.projects-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projects-cards {
+    height: 300px;
+    width: 350px;
+    margin: 30px 0px;
+    text-align: center;
+    color: transparent;
+
+}
+
+.projects-cards:hover {
+    border-image: fill 0 linear-gradient(rgba(48, 48, 48, 0.2), #202020);
+    cursor: pointer;
+    color: white;
+}
+
+.branding {
+    background-image: url('./img/brand.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wedding {
+    background-image: url('./img/wedding.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portraits {
+    background-image: url('./img/portraits.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.film {
+    background-image: url('./img/film.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.underwater {
+    background-image: url('./img/underwater.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.advertising {
+    background-image: url('./img/advertising.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.advertising:hover {
+    color: white;
+}
+
+.card-title {
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-top: 250px;
+}
+
+.bts {
+    width: 100%;
+    height: 600px;
+    background-image: url('./img/bts.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-image: fill 0 linear-gradient(rgba(48, 48, 48, 0.2), #202020);
+    padding-top: 140px;
+    box-sizing: border-box;
+}
+
+.bts-txt {
+    color: white;
+    font-size: 60px;
+    letter-spacing: 2px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.bts-btn {
+    height: 45px;
+    width: 150px;
+    font-size: 13px;
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-left: 100px;
+}
+
+.bts-btn:hover {
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
+
+.clients {
+    height: 250px;
+    box-sizing: border-box;
+    margin: 80px 90px;
+}
+
+.clients-title {
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.clients-info {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+}
+
+img {
+    height: 50px;
+}
+
+.footer {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 90px 30px;
+    box-sizing: border-box;
+    background-color: #202020;
+}
+
+.firm-info {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+
+.firm-logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    margin-top: 0px;
+}
+
+.contact-title {
+    color: white;
+    font-size: 15px;
+}
+
+.number {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.email {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.location-title {
+    font-size: 15px;
+    color: white;
+}
+
+.location-info {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
